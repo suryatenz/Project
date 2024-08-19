@@ -1,9 +1,13 @@
+import React from 'react';
+import Signin from './components/Signin/Signin';
+
+
 function App() {
   return (
-    <>
-      <p className=" text-black text-3xl">Hello</p>
-    </>
-  )
+    <div className="App">
+      <Signin />
+    </div>
+  );
 }
 
-export default App
+export default App;
