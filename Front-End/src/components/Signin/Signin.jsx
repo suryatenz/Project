@@ -25,9 +25,15 @@ const Signin = () => {
           <div className="form">
             <input type="text" placeholder="Enter Username" />
             <input type="password" placeholder="Enter Password" />
+            <div className="options-row">
+            <div className="remember-details">
+              <input type="checkbox" id="remember" />
+              <label htmlFor="remember">Remember me</label>
+            </div>
             <div className="forgot-password">
               <a href="#">Forgot Password?</a>
             </div>
+          </div>   
             <button className="signin-button">Sign In</button>
             <p className="or-text">or</p>
             <button className="google-button">Continue with Google</button>
